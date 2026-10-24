@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #15191f;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #242a33;
+    padding: 25px;
+    border-radius: 12px;
+    border-top: 5px solid #663463;
+}
+
+h1 {
+    text-align: center;
+    color: #734070;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #bbb;
+    margin-bottom: 30px;
+}
+
+.pergunta {
+    background: #303742;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.pergunta p {
+    margin-top: 0;
+}
+
+label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+input {
+    accent-color: #e74c3c;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background: #7f4b7c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #663463;
+}
+
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 3px;
+}
+
+#resultado {
+    display: none;
+    margin-top: 25px;
+    padding: 20px;
+    background: #303742;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#resultado h2 {
+    color: #7f4b7c;
+}
+
+.aviso {
+    color: #bbb;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    label {
+        margin-right: 15px;
+    }
+}
